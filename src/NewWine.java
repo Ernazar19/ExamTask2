@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface NewWine {
+import java.time.LocalDate;
+
+public interface NewWine {
+    Wine newWine(Wine[]wines);
+
 }
